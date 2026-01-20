@@ -1,0 +1,52 @@
+{
+    "manifest_version": 3,
+    "name": "Claude Exporter",
+    "version": "1.8.5",
+    "description": "Export conversations and artifacts from Claude.ai",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting",
+        "tabs",
+        "cookies"
+    ],
+    "host_permissions": [
+        "https://claude.ai/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://claude.ai/*"],
+            "js": ["jszip.min.js", "utils.js", "content.js"],
+            "css": ["content.css"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "options_page": "options.html",
+    "web_accessible_resources": [
+        {
+            "resources": ["browse.html"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "browser_specific_settings": {
+        "safari": {
+            "strict_min_version": "15.4"
+        }
+    }
+}
