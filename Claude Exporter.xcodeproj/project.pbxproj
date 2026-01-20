@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165467742F2010CA00D23D23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 165467722F2010CA00D23D23 /* LICENSE */; };
+		165467752F2010CA00D23D23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 165467732F2010CA00D23D23 /* README.md */; };
+		165467762F2010CA00D23D23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 165467712F2010CA00D23D23 /* .gitignore */; };
+		165467772F2010CA00D23D23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 165467722F2010CA00D23D23 /* LICENSE */; };
+		165467782F2010CA00D23D23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 165467732F2010CA00D23D23 /* README.md */; };
+		165467792F2010CA00D23D23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 165467712F2010CA00D23D23 /* .gitignore */; };
+		1654677A2F2010CA00D23D23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 165467722F2010CA00D23D23 /* LICENSE */; };
+		1654677B2F2010CA00D23D23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 165467732F2010CA00D23D23 /* README.md */; };
+		1654677C2F2010CA00D23D23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 165467712F2010CA00D23D23 /* .gitignore */; };
+		1654677D2F2010CA00D23D23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 165467722F2010CA00D23D23 /* LICENSE */; };
+		1654677E2F2010CA00D23D23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 165467732F2010CA00D23D23 /* README.md */; };
+		1654677F2F2010CA00D23D23 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 165467712F2010CA00D23D23 /* .gitignore */; };
 		16F0EC762F1FF8EE00523510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EC752F1FF8EE00523510 /* AppDelegate.swift */; };
 		16F0EC782F1FF8EE00523510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F0EC772F1FF8EE00523510 /* SceneDelegate.swift */; };
 		16F0EC7B2F1FF8EE00523510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F0EC792F1FF8EE00523510 /* LaunchScreen.storyboard */; };
@@ -112,6 +124,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		165467712F2010CA00D23D23 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		165467722F2010CA00D23D23 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		165467732F2010CA00D23D23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16F0EC662F1FF8EE00523510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
 		16F0EC672F1FF8EE00523510 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		16F0EC682F1FF8EE00523510 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -189,6 +204,9 @@
 		16F0EC5E2F1FF8EE00523510 = {
 			isa = PBXGroup;
 			children = (
+				165467712F2010CA00D23D23 /* .gitignore */,
+				165467722F2010CA00D23D23 /* LICENSE */,
+				165467732F2010CA00D23D23 /* README.md */,
 				16F0EC632F1FF8EE00523510 /* Shared (App) */,
 				16F0EC6C2F1FF8EE00523510 /* Shared (Extension) */,
 				16F0EC742F1FF8EE00523510 /* iOS (App) */,
@@ -441,6 +459,9 @@
 			files = (
 				16F0ECA22F1FF8EF00523510 /* Icon.png in Resources */,
 				16F0EC7B2F1FF8EE00523510 /* LaunchScreen.storyboard in Resources */,
+				165467772F2010CA00D23D23 /* LICENSE in Resources */,
+				165467782F2010CA00D23D23 /* README.md in Resources */,
+				165467792F2010CA00D23D23 /* .gitignore in Resources */,
 				16F0ECA02F1FF8EF00523510 /* Main.html in Resources */,
 				16F0ECA62F1FF8EF00523510 /* Script.js in Resources */,
 				16F0ECAA2F1FF8EF00523510 /* Assets.xcassets in Resources */,
@@ -459,6 +480,9 @@
 				16F0ECA72F1FF8EF00523510 /* Script.js in Resources */,
 				16F0ECAB2F1FF8EF00523510 /* Assets.xcassets in Resources */,
 				16F0ECA12F1FF8EF00523510 /* Main.html in Resources */,
+				1654677A2F2010CA00D23D23 /* LICENSE in Resources */,
+				1654677B2F2010CA00D23D23 /* README.md in Resources */,
+				1654677C2F2010CA00D23D23 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +496,9 @@
 				16F0ECF22F1FF8F000523510 /* popup-theme.js in Resources */,
 				16F0ECF52F1FF8F000523510 /* options.html in Resources */,
 				16F0ECEF2F1FF8F000523510 /* options.js in Resources */,
+				1654677D2F2010CA00D23D23 /* LICENSE in Resources */,
+				1654677E2F2010CA00D23D23 /* README.md in Resources */,
+				1654677F2F2010CA00D23D23 /* .gitignore in Resources */,
 				16F0ECE72F1FF8F000523510 /* browse.html in Resources */,
 				16F0ECE62F1FF8F000523510 /* popup.js in Resources */,
 				16F0ECEA2F1FF8F000523510 /* SAFARI_BUILD_INSTRUCTIONS.md in Resources */,
@@ -498,6 +525,9 @@
 				16F0ECDF2F1FF8F000523510 /* popup-theme.js in Resources */,
 				16F0ECE22F1FF8F000523510 /* options.html in Resources */,
 				16F0ECDC2F1FF8F000523510 /* options.js in Resources */,
+				165467742F2010CA00D23D23 /* LICENSE in Resources */,
+				165467752F2010CA00D23D23 /* README.md in Resources */,
+				165467762F2010CA00D23D23 /* .gitignore in Resources */,
 				16F0ECD42F1FF8F000523510 /* browse.html in Resources */,
 				16F0ECD32F1FF8F000523510 /* popup.js in Resources */,
 				16F0ECD72F1FF8F000523510 /* SAFARI_BUILD_INSTRUCTIONS.md in Resources */,
